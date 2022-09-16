@@ -1,0 +1,10 @@
+# Este é um site de previsão do tempo
+## Este site consome uma API chamada Open Weather API
+
+### Para utilizar o site é muito simples:
+* Permita a geolocalização que o site te pede a permissão;
+* Se a geolocalização funcionar no seu navegador e a localização estiver disponível, ele vai atualizar para sua cidade automaticamente;
+* Caso queira ver outra cidade ou a geolocalização não estiver disponível, digite o nome da cidade no campo de pesquisa;
+* É isto!
+
+## Obrigado pela atenção!

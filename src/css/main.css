@@ -1,3 +1,4 @@
+
 .city-name{
     font-size: 2rem;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
@@ -19,6 +20,10 @@
     font-size: 5rem;
 }
 
+.feels_like.temperature{
+    font-size: 1.5rem;
+}
+
 .prevision{
     font-size: 2.5rem;
     font-family: 'Roboto', sans-serif;
@@ -30,11 +35,34 @@
     justify-content: space-evenly;
 }
 
-.min.temperature,.max.temperature,.humidity.temperature{
+.min.temperature,.max.temperature,.humidity.temperature,.wind.temperature{
     font-size: 2rem;
 }
 
 .misc-icon{
     height: 30px;
     width: 30px;
+}
+
+@media screen and (max-width: 320px){
+
+    .city-name{
+        font-size: 1.5rem;
+        font-family: 'Fira Sans Extra Condensed', sans-serif;
+    }
+
+    .current.temperature{
+        font-size: 3.5rem;
+    }
+    
+
+    .min.temperature,.max.temperature,.humidity.temperature,.wind.temperature{
+        font-size: 1rem;
+    }
+    .prevision{
+        font-size: 1.5rem;
+    }
+    .feels_like.temperature{
+        font-size: 0.8rem;
+    }
 }

@@ -1,7 +1,18 @@
+body{
+    background-image: url(../icons/misc-icons/wallapaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .container{
-    margin: 0.5rem auto;
-    border: black 1px solid;
-    height: 40rem;
+    background-color: #fff;
+    backdrop-filter: blur(5px);
+    background-color: #0000;
+    box-shadow: 0px 5px 21px 5px rgba(0,0,0,0.79);
+    min-height: 100vh;
+    margin: auto;
     max-width: 40rem;
     text-align: center;
+    -webkit-box-shadow: 0px 5px 21px 5px rgba(0,0,0,0.79); 
 }
+
