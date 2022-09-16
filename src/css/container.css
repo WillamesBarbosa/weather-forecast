@@ -1,0 +1,7 @@
+.container{
+    margin: 0.5rem auto;
+    border: black 1px solid;
+    height: 40rem;
+    max-width: 40rem;
+    text-align: center;
+}

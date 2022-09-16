@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do tempo</title>
+    <link rel="shortcut icon" href="src/icons/misc-icons/icons8-weather-64.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/container.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <script src="src/js/climate.js" defer></script>
+    <script src="src/js/currentDate.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="text-header">Previsão do tempo</h1>
+        </header>
+        <main class="main">
+            <div class="location">
+                <h2 class="city-name">Cidade Atual, BR</h2>
+                <p class="current-date">Quarta-feira, 14 de julho de 2022</p>
+
+            </div>
+            <div class="image-climate">
+                <img class="img-icon" src="src/icons/icons-climate/unknown.png" alt="Clima desconhecido">
+            </div>
+            <div class="local-temperature">
+                <div class="climate-now">
+                    <p class="current temperature">22<span>°C</span></p>
+                    <p class="prevision">Nublado</p>
+                </div>
+
+                <div class="variation-temperature">
+                    <div>
+                        <img class="misc-icon" src="src/icons/misc-icons/icons8-cold-48.png" alt="Temperatura mínima">
+                        <p class="min temperature">19°C</p>
+                    </div>
+                    <div>
+                        <img class="misc-icon" src="src/icons/misc-icons/icons8-hot-48.png" alt="Temperatura Máxima">
+                        <p class="max temperature">27°C</p>
+                    </div>
+                    <div>
+                        <img class="misc-icon" src="src/icons/misc-icons/icons8-humidity-64 (1).png" alt="Humidade do ar">
+                        <p class="humidity temperature">45%</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="request">
+                <input class="input-current-climate" type="text">
+                <button class="request-current-climate"><img class="img-search" src="src/icons/icons-search/magnifying-glass-solid.svg" alt="pesquisar"></button>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>

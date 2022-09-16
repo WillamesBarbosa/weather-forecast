@@ -1,0 +1,40 @@
+.city-name{
+    font-size: 2rem;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.current-date{
+    font-family: 'Roboto', sans-serif;
+}
+
+.temperature{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.climate-now{
+    margin-bottom: 1.5rem;
+}
+
+.current.temperature{
+    font-size: 5rem;
+}
+
+.prevision{
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.variation-temperature{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.min.temperature,.max.temperature,.humidity.temperature{
+    font-size: 2rem;
+}
+
+.misc-icon{
+    height: 30px;
+    width: 30px;
+}
